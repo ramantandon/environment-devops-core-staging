@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: devops-core-staging
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: devops-core-staging
+  pipelines: {}
